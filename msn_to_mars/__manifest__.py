@@ -5,7 +5,8 @@
     'summary': """Mission to Mars""",
     'description': """
         Flight plan:
-        - Pilots
+        - Pilots / Crew
+        - Ship
         - Flight schedule
         - Provisions
     """,
