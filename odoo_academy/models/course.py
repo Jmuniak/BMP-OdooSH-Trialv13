@@ -1,6 +1,6 @@
 # _*_ coding: utf-8 _*_
 
-from odoo import models, fiels, api
+from odoo import models, fields, api
 
 class Course(models.Model):
     # use the name you want the model to be: Course in this case.
