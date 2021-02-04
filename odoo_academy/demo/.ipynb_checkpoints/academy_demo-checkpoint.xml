@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 
 <odoo>
@@ -16,8 +15,14 @@
             Intermediate Accounting Course
             Learning about Cost Accounting, Pricing and Revenue Analysis. 
             </field>
-            <field name="level">Intermediate</field>
-            
+            <field name="level">Intermediate Level</field>
+        </record>
+        <record model="academy.corse" id="website_500">
+            <field name="name">Website Building 500:</field>
+            <field name="description">
+                
+            </field>
+            <field name="level">Advanced Level</field>
         </record>
     </data>
 </odoo>
