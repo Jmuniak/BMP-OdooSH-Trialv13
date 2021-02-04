@@ -10,3 +10,13 @@ class Course(models.Model):
     name = fields.Char(string='Title', required=True)
     # next we will have a description field so it can be longer
     description = fields.Text(string='Description')
+    
+    # selection field. Level field: the level of the current course
+    level = fields.Selection(string='Level',
+                            selection=[('beginner', 'Beginner'),
+                                      ('intermediate', 'Intermediate'),
+                                      'advanced', 'Advanced'],
+                            copy=False)
+    
+    # using a reserved field namne
+    active = fields.Boolean(string='Active', default=True)
