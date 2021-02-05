@@ -25,7 +25,8 @@
                   name="courses" 
                   parent="menu_academy_sub" 
                   sequence="3" 
-                  action="course_list_action"/> <?the record model at the top?>
+                  
+                  action="course_list_action"/> <? <--the record model at the top?>
                   
     </data> 
 </odoo>
