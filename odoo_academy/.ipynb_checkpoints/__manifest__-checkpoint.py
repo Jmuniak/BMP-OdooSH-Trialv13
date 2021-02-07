@@ -28,8 +28,8 @@
         # this can cause an error if not loaded in the right order.
         'secuirty/ir.model.access.csv',
         
+        'views/academy_menuitems.xml',
         #'views/course_views.xml',
-        #'views/academy_menuitems.xml',
     ],
     
     'demo': [
