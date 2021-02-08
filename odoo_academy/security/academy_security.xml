@@ -11,6 +11,7 @@
         <field name="perm_create" eval="0"/>
         <field name="perm_unlink" eval="1"/>
         <field name="domain_force">[('active','=',True)]</field>
+<!--         the actions write and unlink will apply to records only when 'active is True' -->
         <field name="model_id" ref="model_academy_course"/>
     </record>
 </odoo>

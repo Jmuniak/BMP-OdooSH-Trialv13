@@ -26,7 +26,7 @@
         'security/academy_security.xml',
         # if we define any GROUPS in the XML file and we will need to load them before the access rights in the CSV
         # this can cause an error if not loaded in the right order.
-        'secuirty/ir.model.access.csv',
+        'security/ir.model.access.csv',
         
         'views/academy_menuitems.xml',
         #'views/course_views.xml',
