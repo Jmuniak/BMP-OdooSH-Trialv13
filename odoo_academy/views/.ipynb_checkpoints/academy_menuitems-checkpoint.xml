@@ -2,6 +2,7 @@
 <odoo>
     <data>
         <record model="ir.actions.act_window" id="course_list_action">
+
             <field name="name">Courses</field>
             <field name="res_model">academy.course</field>
             <field name="view_mode">tree,form</field>
@@ -11,8 +12,7 @@
                 </p>
             </field>
         </record>
-        
-        
+       
         <menuitem name="Odoo Academy"
                   id="menu_academy"
                   sequence="1"/>

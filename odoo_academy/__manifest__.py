@@ -1,4 +1,4 @@
-# _*_ coding: utf-8 _*_
+# -*- coding: utf-8 -*-
 
 {
     'name': 'Odoo Academy',
@@ -22,6 +22,7 @@
     'depends': ['base'],
     
     'data': [
+
         # load the security XML file first. Odoo loads the files in order.
         'security/academy_security.xml',
         # if we define any GROUPS in the XML file and we will need to load them before the access rights in the CSV
@@ -30,6 +31,7 @@
         
         'views/academy_menuitems.xml',
         #'views/course_views.xml',
+
     ],
     
     'demo': [
