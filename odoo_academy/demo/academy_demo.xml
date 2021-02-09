@@ -20,7 +20,6 @@
         <record model="academy.course" id="website_500">
             <field name="name">Website Building 500:</field>
             <field name="description">
-                
             </field>
             <field name="level">Advanced Level</field>
         </record>
